@@ -17,7 +17,7 @@ Here are some projects that have used this Jekyll Theme:
 * [DKAN Open Data Catalog](http://getdkan.com) (modified version of this theme)
 
 ## Alterations
-The theme comes with a home, service, blog, about, work, contact pages. It offers slider, features, testimonial sections. Certain alterations were made to get a simple and more coherent site. 
+The theme comes with a home, service, blog, about, work, contact pages. It offers slider, service/productfeatures, work portfolio, testimonial sections. Certain alterations were made to get a simple and more coherent site. 
 
 - Removal of the following sections
   * call-to-action
