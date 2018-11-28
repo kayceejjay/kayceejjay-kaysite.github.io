@@ -1,0 +1,97 @@
+---
+layout: page
+title: Request Information
+permalink: /reqinfo/
+---
+<!--form:-->
+<!--  to: admin@techhandie.com-->
+<!--  subject: Site Guest Information Requisition-->
+<!--  redirect: /-->
+<!--  form_engine: formspree-->
+<!--  placeholders: false-->
+<!--  fields: -->
+<!--    -name: name-->
+<!--      input_type: text-->
+<!--      placeholder: Name-->
+<!--      required: true-->
+<!--    -name: phone-->
+<!--      input_type: text-->
+<!--      placeholder: Phone Number-->
+<!--      required: true-->
+<!--    -name: email-->
+<!--      input_type: email-->
+<!--      placeholder: Email address-->
+<!--      required: true-->
+<!--    -name: interest1-->
+<!--      input_type: radio-->
+<!--      placeholder: I'm interested your web design services-->
+<!--      required: false-->
+<!--    -name: interest2-->
+<!--      input_type: radio-->
+<!--      placeholder: I'm interested in your web development services-->
+<!--      required: false-->
+<!--    -name: interest3-->
+<!--      input_type: radio-->
+<!--      placeholder: I would like a free consultation-->
+<!--      required: false-->
+    <!--- name: terms-->
+    <!--  input_type: checkbox-->
+    <!--  placeholder: I accept the terms and conditions-->
+    <!--  required: true-->
+    <!--- name: submit-->
+<!--      input_type: submit-->
+<!--      placeholder: Submit form-->
+<!--      required: true-->
+
+<!-- {% if page.form %}{% include form.html %}{% endif %} -->
+
+
+<!-- Header Start -->
+<section id="global-header">
+<!--
+ contact form start
+-->
+<section id="contact-form">
+  <div class="container">
+    <div class="row">
+      <h1> {{ page.title }} </h1><p>Please fill out</p>
+      <div class="col-md-6 col-sm-12">
+        <div class="block">
+          <form action="https://formspree.io/admin@techhandie.com">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="First Name">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Last Name">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Phone">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Email Address">
+            </div>
+            <div class="field">
+              I am interested in having a:<br>
+              <input type="checkbox" name="interest2" value="Consult">   free consultation<br>
+              <input type="checkbox" name="interest3" value="Design">    website designed<br>
+              <input type="checkbox" name="interest4" value="Develop">   web application developed
+            </div>
+            <input type="submit" value="Send">
+          </form>
+            
+<!--          </form>-->
+<!--        </div><!-- block -->
+<!--      </div><!-- md6sm12 -->
+<!--      <div class="col-md-6 col-sm-12">-->
+<!--        <div class="block">-->
+<!--          <form>-->
+<!--            <div class="form-group-2">-->
+<!--              <textarea class="form-control" rows="3" placeholder="Your Message"></textarea>-->
+<!--            </div>-->
+<!--            <button class="btn btn-default" type="submit">Send Message</button>-->
+<!--          </form>-->
+        </div><!-- block --> 
+      </div><!-- md6sm12 -->
+    </div><!-- row -->
+  </div><!-- container -->
+</section>
