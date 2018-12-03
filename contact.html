@@ -23,11 +23,11 @@ permalink: /contact/
     <div class="row">
       <div class="col-md-6 col-sm-12">
         <div class="block">
-          <form accept-charset="UTF-8" action="https://getsimpleform.com/messages?form_api_token=<form_api_token>" method="POST">
+          <form accept-charset="UTF-8" action="https://formspree.io/admin@techhandie.com" method="POST">
             <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-            <input type='hidden' name='redirect_to' value="{{ site.baseurl }}/thankyou/" />
+            <!-- <input type='hidden' name='redirect_to' value="{{ site.baseurl }}/thankyou/" /> -->
             <div class="form-group">
-              <input type='hidden' class="form-control" name="Source" value="Contact Info" >
+              <input type="hidden" class="form-control" name="Source" value="Contact Info" >
               <input type="text" class="form-control" name="Your Name" placeholder="Your Name">
             </div>
             <div class="form-group">
@@ -36,35 +36,32 @@ permalink: /contact/
             <div class="form-group">
               <input type="text" class="form-control" name="Subject" placeholder="Subject">
             </div>
-          </form>
-        </div>
-      </div>
+        </div><!-- block -->
+      </div><!-- colmd6 -->
       <div class="col-md-6 col-sm-12">
         <div class="block">
-          <form>
             <div class="form-group-2">
               <textarea class="form-control" name="Message" rows="3" placeholder="Your Message"></textarea>
             </div>
-            <button class="btn btn-default" type="submit">Send Message</button>
-          </form>
         </div><!-- block -->
-        
+      <button class="btn btn-default" type="submit">Send Message</button>
+          </form>
         <div class="info-title">
             
             <h2 class="info-title">Contact Information</h2>
             <h3 class="info-title">TechHandie Corporation</h3>
             
             <div class="info-title">
-                <img src="{{ site.baseurl }}/img/phone.svg" alt="Phone" width="20" hieght="20">
+                <img src="{{ site.baseurl }}/img/phone.svg" alt="Phone" width="30" hieght="30">
                 <a href="tel:1-201-817-9826">(201) 817-9826</a>
                 <br>
                 <br>
-                <img src="{{ site.baseurl }}/img/printer.svg" alt="Fax" width="20" hieght="20">
-                <a href="tel:1-201-603-6967">(201) 603-6967</a>
+                <img src="{{ site.baseurl }}/img/printer.svg" alt="Fax" width="30" hieght="30">
+                <a href="fax:1-201-603-6967">(201) 603-6967</a>
                 <br>
                 <br>
-                <img src="{{ site.baseurl }}/img/email.svg" alt="Email" width="20" height="20">
-                <a href="mailto:info@techhandie.com?Subject=Info%20Message" target="_top">Customer Service [info@techhandie.com</a>
+                <img src="{{ site.baseurl }}/img/email.svg" alt="Email" width="30" height="30">
+                <a href="mailto:info@techhandie.com?Subject=Info%20Message" target="_top">Customer Service [info@techhandie.com]</a>
             </div>
 
         </div><!-- info-title -->
