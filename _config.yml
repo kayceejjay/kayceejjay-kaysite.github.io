@@ -35,3 +35,8 @@ markdown: kramdown
 
 #   - cat: dummy
 #     desc: "Just some placeholder posts, lorem ipsum and the rest."
+
+#Variables
+water: "#f2f2f2"
+charcoal: "#1D1D1D"
+slate: "#222222"
