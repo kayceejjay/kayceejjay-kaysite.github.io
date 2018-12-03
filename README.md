@@ -17,14 +17,17 @@ Here are some projects that have used this Jekyll Theme:
 * [DKAN Open Data Catalog](http://getdkan.com) (modified version of this theme)
 
 ## Alterations
-The theme comes with a home, service, blog, about, work, contact pages. It offers slider, service/productfeatures, work portfolio, testimonial sections. Certain alterations were made to get a simple and more coherent site. 
+The theme comes with a home, service, blog, about, work, contact pages. It offers slider, service/product, features, work portfolio, testimonial sections. Certain alterations were made to get a simple and more coherent site. 
 
 - Removal of the following sections
   * call-to-action
   * features
+  * portfolio
   * testimonials
-- Alteratinos of assets or elements
+  * work
+  * wrapper
+- Alterations of assets or elements
   * home page background image
   * addition of Handel Gothic, Bitter, and Belleza fonts
-  * use of colors #222222, #F2F2F2, #1D1D1D,
+  * use of colors #222222, #F2F2F2, #1D1D1D, #426bca
   
