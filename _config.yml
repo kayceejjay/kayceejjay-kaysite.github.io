@@ -16,7 +16,7 @@ keep_files:
 # Site settings
 title: TechHandie Corporation
 subtitle: "A Business Technology Company"
-url: "https://kens-coding-kayceejjay.c9users.io/" # "https://comh.cf/" # the base hostname & protocol for your site
+url: "https://www.kayceejjay-kaysite.github.io/" # "https://comh.cf/" # the base hostname & protocol for your site
 # baseurl:  # Set this value to "" if you want your site to be root
 baseurl: ""
 cover: "/assets/cover.png"
